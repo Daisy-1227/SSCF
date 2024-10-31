@@ -91,16 +91,14 @@ We also provide our reproduction code of other baselines, please refer to [basel
 ## Citation
 If you find SSCF useful in your research, please cite our paper:
 ```
-@article {huang_sig24,
-  author = {Zeyu Huang and Honghao Xu and Haibin Huang and Chongyang Ma and Hui Huang and Ruizhen Hu},
-  title = {Spatial and Surface Correspondence Field for Interaction Transfer},
-  journal = {ACM Transactions on Graphics (Proc. of SIGGRAPH)},
-  volume = {43},
-  number = {4},
-  issn = {0730-0301},
-  url = {https://doi.org/10.1145/3658169},
-  doi = {10.1145/3658169},
-  year = {2024}
+@article{InterTransfer24,
+    title={Spatial and Surface Correspondence Field for Interaction Transfer},
+    author={Zeyu Huang and Honghao Xu and Haibin Huang and Chongyang Ma and Hui Huang and Ruizhen Hu},
+    journal={ACM Transactions on Graphics (Proceedings of SIGGRAPH)},
+    volume={43},
+    number={4},
+    pages={83:1--83:12},
+    year={2024},
 }
 ```
 
