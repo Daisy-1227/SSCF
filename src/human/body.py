@@ -2,7 +2,8 @@ import torch
 import smplx
 import trimesh
 
-def load_smplx(smplx_root='/mnt/d/datasets/sscf/human_model/smplx'):
+
+def load_smplx(smplx_root='/mnt/d/projects/sscf/data/human_model/smplx'):
     model = smplx.create(smplx_root, model_type='smplx',
         gender='male', ext='npz',
         num_betas=10,

@@ -12,16 +12,16 @@ from src.utils.rot_utils import rotate_np
 
 
 # Load mano model
-H_model = load_mano(mano_assets_root='/mnt/d/datasets/sscf/human_model/mano')
+H_model = load_mano(mano_assets_root='data/human_model/mano')
 
 # Load source interaction dataset
-dataset_src = MugsDataset(f'/mnt/d/datasets/sscf/hoi/mugs')
+dataset_src = MugsDataset(f'data/hoi/mugs')
 
 # Load target object dataset
-dataset_tgt = ShapeNetTestDataset('/mnt/d/datasets/sscf/shapenet','03797390')
+dataset_tgt = ShapeNetTestDataset('data/shapenet','03797390')
 
 # Load SSCF optimzer
-optimizer = SSCFOptimizer('/mnt/d/datasets/sscf/ckpts/mug/checkpoint.ckpt')
+optimizer = SSCFOptimizer('data/ckpts/mug/checkpoint.ckpt')
 
 color_anc = 'w'
 color_src = '#15c4ed'

@@ -12,16 +12,16 @@ from src.utils.rot_utils import rotate_np
 
 
 # Load SMPLX model
-H_model = load_smplx(smplx_root='/mnt/d/datasets/sscf/human_model/smplx')
+H_model = load_smplx(smplx_root='data/human_model/smplx')
 
 # Load source interaction dataset
-dataset_src = ChairsDataset(f'/mnt/d/datasets/sscf/hoi/chairs')
+dataset_src = ChairsDataset(f'data/hoi/chairs')
 
 # Load target object dataset
-dataset_tgt = ShapeNetTestDataset('/mnt/d/datasets/sscf/shapenet','03001627')
+dataset_tgt = ShapeNetTestDataset('data/shapenet','03001627')
 
 # Load SSCF optimzer
-optimizer = SSCFOptimizer('/mnt/d/datasets/sscf/ckpts/chair/checkpoint.ckpt')
+optimizer = SSCFOptimizer('data/ckpts/chair/checkpoint.ckpt')
 
 color_anc = 'w'
 color_src = '#15c4ed'

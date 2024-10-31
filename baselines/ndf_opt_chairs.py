@@ -14,10 +14,10 @@ from tqdm import tqdm
 from src.utils.rot_utils import rotate_np
 
 
-H_model = load_smplx(smplx_root='/mnt/d/datasets/sscf/human_model/smplx')
-dataset_src = ChairsDataset(f'/mnt/d/datasets/sscf/hoi/chairs')
-dataset_tgt = ShapeNetTestDataset('/mnt/d/datasets/sscf/shapenet','03001627')
-optimizer = NDFOptimizer('/mnt/d/datasets/sscf/ckpts/chair/ndf.ckpt')
+H_model = load_smplx(smplx_root='data/human_model/smplx')
+dataset_src = ChairsDataset(f'data/hoi/chairs')
+dataset_tgt = ShapeNetTestDataset('data/shapenet','03001627')
+optimizer = NDFOptimizer('data/ckpts/chair/ndf.ckpt')
 
 color_anc = 'w'
 color_src = '#15c4ed'

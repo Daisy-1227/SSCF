@@ -14,11 +14,11 @@ from tqdm import tqdm
 from src.utils.rot_utils import rotate_np
 
 
-H_model = load_mano(mano_assets_root='/mnt/d/datasets/sscf/human_model/mano')
-dataset_src = MugsDataset(f'/mnt/d/datasets/sscf/hoi/mugs')
-dataset_tgt = ShapeNetTestDataset('/mnt/d/datasets/sscf/shapenet','03797390')
+H_model = load_mano(mano_assets_root='data/human_model/mano')
+dataset_src = MugsDataset(f'data/hoi/mugs')
+dataset_tgt = ShapeNetTestDataset('data/shapenet','03797390')
 
-optimizer = SpatialMapOptimizer('/mnt/d/datasets/sscf/ckpts/mug/checkpoint.ckpt')
+optimizer = SpatialMapOptimizer('data/ckpts/mug/checkpoint.ckpt')
 
 color_anc = 'w'
 color_src = '#15c4ed'

@@ -3,7 +3,7 @@ from manotorch.manolayer import ManoLayer, MANOOutput
 import trimesh
 from pytorch3d.transforms import Transform3d
 
-def load_mano(mano_assets_root='/mnt/d/datasets/sscf/human_model/mano'):
+def load_mano(mano_assets_root='/mnt/d/projects/sscf/data/human_model/mano'):
     model = ManoLayer(rot_mode='quat',center_idx=0, mano_assets_root=mano_assets_root)
     return model
 
