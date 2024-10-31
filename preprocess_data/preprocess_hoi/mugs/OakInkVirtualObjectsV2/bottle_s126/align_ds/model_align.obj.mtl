@@ -1,0 +1,95 @@
+#
+# Wavefront material file
+# Converted by Meshlab Group
+#
+
+newmtl material_0
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd ../images/texture0.png
+
+newmtl material_1
+Ka 0.200000 0.200000 0.200000
+Kd 0.749020 0.000000 0.368627
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd ../images/texture0.png
+
+newmtl material_2
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 0.819608 0.937255
+Ks 1.000000 1.000000 1.000000
+Tr 0.298039
+illum 2
+Ns 0.000000
+map_Kd ../images/texture0.png
+
+newmtl material_3
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 0.298039
+illum 2
+Ns 0.000000
+map_Kd ../images/texture0.png
+
+newmtl material_4
+Ka 0.200000 0.200000 0.200000
+Kd 0.000000 0.000000 0.600000
+Ks 1.000000 1.000000 1.000000
+Tr 0.698039
+illum 2
+Ns 0.000000
+map_Kd ../images/texture0.png
+
+newmtl material_5
+Ka 0.200000 0.200000 0.200000
+Kd 0.949020 0.949020 0.949020
+Ks 1.000000 1.000000 1.000000
+Tr 0.698039
+illum 2
+Ns 0.000000
+map_Kd ../images/texture0.png
+
+newmtl material_6
+Ka 0.200000 0.200000 0.200000
+Kd 0.000000 0.000000 0.600000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd ../images/texture0.png
+
+newmtl material_7
+Ka 0.200000 0.200000 0.200000
+Kd 0.200000 0.200000 0.200000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd ../images/texture0.png
+
+newmtl material_8
+Ka 0.200000 0.200000 0.200000
+Kd 0.949020 0.949020 0.949020
+Ks 1.000000 1.000000 1.000000
+Tr 0.400000
+illum 2
+Ns 0.000000
+map_Kd ../images/texture0.png
+
+newmtl material_9
+Ka 0.200000 0.200000 0.200000
+Kd 0.694118 0.000000 0.349020
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd ../images/texture0.png
+

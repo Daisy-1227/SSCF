@@ -1,0 +1,95 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.2.202087883)
+
+newmtl material_0_1_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture0.png
+map_d ../images/texture0.png
+
+newmtl material_1_4_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture1.png
+map_d ../images/texture1.png
+
+newmtl material_2_0
+Kd 0 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_2_24
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_3_2_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture2.png
+map_d ../images/texture2.png
+
+newmtl material_4_3_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture3.png
+map_d ../images/texture3.png
+
+newmtl material_5_24
+Kd 0.117647 0.117647 0.117647
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+
+newmtl material_6_5_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture4.png
+map_d ../images/texture4.png
+
+newmtl material_7_6_8
+Kd 1 1 1
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+map_Kd ../images/texture5.png
+map_d ../images/texture5.png
+
+newmtl material_8_24
+Kd 0 0 0
+Ka 0 0 0
+Ks 0.4 0.4 0.4
+Ke 0 0 0
+Ns 10
+illum 2
+

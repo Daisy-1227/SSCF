@@ -1,1 +1,9 @@
 __pycache__/
+/data/
+/preprocess_data/preprocess_hoi/chairs/AHOI_Data/
+/preprocess_data/preprocess_hoi/mugs/imgs/
+/preprocess_data/preprocess_hoi/mugs/metaV2/
+/preprocess_data/preprocess_hoi/mugs/OakInkObjectsV2/
+/preprocess_data/preprocess_hoi/mugs/OakInkObjectsV2/
+/preprocess_data/preprocess_hoi/mugs/grasp_list_real.pt
+
