@@ -25,8 +25,8 @@ conda create -n sscf python=3.9 cmake make compilers pybind11 eigen -c conda-for
 2. Install pyigl
 
 ```bash
-pip install git+https://github.com/zilch/pyigl
-# pip install git+https://gitee.com/zilch/pyigl
+pip install git+https://github.com/zzilch/pyigl
+# pip install git+https://gitee.com/zzilch/pyigl
 ```
 
 3. Install [`Pytorch`](https://pytorch.org/get-started/previous-versions/) and [`Pytorch3D`](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md) based on your cuda version. (Our `Pytorch` version is 2.4.0 and `cuda` version is 12.2)
